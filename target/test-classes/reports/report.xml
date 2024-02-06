@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.473" tests="3" skipped="0" failures="3" errors="0">
+<testcase classname="Amazon Document" name="searching products - Example #1.1" time="0.043">
+<failure/>
+<system-out><![CDATA[
+Given i am logged in........................................................undefined
+When i search product Mobile in price Rs. 15000.............................skipped
+Then i get results..........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Document" name="searching products - Example #1.2" time="0.004">
+<failure/>
+<system-out><![CDATA[
+Given i am logged in........................................................undefined
+When i search product LCD in price Rs. 50000................................skipped
+Then i get results..........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Document" name="searching products - Example #1.3" time="0.007">
+<failure/>
+<system-out><![CDATA[
+Given i am logged in........................................................undefined
+When i search product Speaker in price Rs. 500..............................skipped
+Then i get results..........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="96.196" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Amazon Document" name="validate userid" time="46.097">
+<system-out><![CDATA[
+Given I want to open "chrome" and get url "https://www.amazon.in"...........passed
+And i click on signin link..................................................passed
+When I enter valid userid "paragguide@yahoo.co.in"..........................passed
+And click continue button...................................................passed
+Then I get password textbox.................................................passed
+But does not get error......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Document" name="validate password" time="42.959">
+<system-out><![CDATA[
+Given userid is valid.......................................................passed
+When i enter correct password "RMinfotech"..................................passed
+Then i should login.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Document" name="searching products - Example #1.1" time="2.479">
+<system-out><![CDATA[
+Given i am logged in........................................................passed
+When i search product Mobile in price 15000.................................passed
+Then i get results..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Document" name="searching products - Example #1.2" time="2.354">
+<system-out><![CDATA[
+Given i am logged in........................................................passed
+When i search product LCD in price 50000....................................passed
+Then i get results..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Document" name="searching products - Example #1.3" time="1.906">
+<system-out><![CDATA[
+Given i am logged in........................................................passed
+When i search product Speaker in price 500..................................passed
+Then i get results..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
